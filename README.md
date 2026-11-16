@@ -5,12 +5,12 @@
 <img src="./assets/t-projects.svg" width="100%" alt="Featured Projects" />
 
 <p align="center">
-  <a href="https://github.com/diyaverma06/Intelligent_Document_Digitization_System"><img src="./assets/doc-ai.svg" width="49%" alt="Document Digitization AI" /></a>
+  <a href="https://www.diyaverma.in"><img src="./assets/doc-ai.svg" width="49%" alt="Document Digitization AI" /></a>
   <a href="https://github.com/diyaverma06/fake_news_detection"><img src="./assets/fake-news.svg" width="49%" alt="Fake News Detection" /></a>
   <a href="https://github.com/diyaverma06/sentiment_analysis"><img src="./assets/sentiment.svg" width="49%" alt="Sentiment Analysis" /></a>
-  <a href="https://github.com/diyaverma06/movie_recommendation"><img src="./assets/movies.svg" width="49%" alt="Movie Recommendation" /></a>
+  <a href="https://www.diyaverma.in"><img src="./assets/movies.svg" width="49%" alt="Movie Recommendation" /></a>
   <a href="https://www.diyaverma.in"><img src="./assets/student.svg" width="49%" alt="Student Performance AI" /></a>
-  <a href="https://github.com/diyaverma06/Invoice-Generator-"><img src="./assets/invoice.svg" width="49%" alt="Jewellery Invoice System" /></a>
+  <a href="https://www.diyaverma.in"><img src="./assets/invoice.svg" width="49%" alt="Jewellery Invoice System" /></a>
 </p>
 
 <img src="./assets/t-stack.svg" width="100%" alt="Tech Stack" />
