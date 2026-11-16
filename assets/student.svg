@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="250" viewBox="0 0 580 250">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7cf3ff"/><stop offset=".5" stop-color="#5eead4"/><stop offset="1" stop-color="#7cf3ff" stop-opacity=".2"/>
+<animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="5s" begin="-3.2s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="gl"><stop offset="0" stop-color="#7cf3ff" stop-opacity=".35"/><stop offset="1" stop-color="#7cf3ff" stop-opacity="0"/></radialGradient>
+<clipPath id="cp"><rect x="2" y="2" width="576" height="246" rx="20"/></clipPath></defs>
+<style>
+.ttl{font:700 23px 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif;fill:#fff} .d{font:400 15.5px 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif;fill:#c9d1d9} .t{font:600 12.5px 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif;fill:#f0f6fc}
+.lb{font:700 11px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#7cf3ff;letter-spacing:1.5px}
+.blob{animation:drift 9s ease-in-out infinite} @keyframes drift{50%{transform:translate(-120px,40px)}}
+.shine{animation:sh 5s 2.8s ease-in-out infinite;transform:translateX(-200px)} @keyframes sh{0%{transform:translateX(-200px)}35%,100%{transform:translateX(800px)}}
+.ic{animation:bob 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center} @keyframes bob{50%{transform:translateY(-4px) rotate(-6deg)}}
+.arr{animation:nudge 1.6s ease-in-out infinite} @keyframes nudge{50%{transform:translateX(5px)}}
+.in{opacity:0;animation:fi .8s 0.68s ease-out forwards} @keyframes fi{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+</style>
+<rect x="2" y="2" width="576" height="246" rx="20" fill="#0d1117"/>
+<g clip-path="url(#cp)">
+<circle cx="520" cy="40" r="170" fill="url(#gl)" class="blob"/>
+<rect x="0" y="-50" width="60" height="400" fill="#ffffff" opacity=".05" transform="rotate(20)" class="shine"/>
+</g>
+<rect x="2" y="2" width="576" height="246" rx="20" fill="none" stroke="url(#g)" stroke-width="2.5"/>
+<g class="in">
+<text x="34" y="72" font-size="34" class="ic">📊</text>
+<text x="86" y="68" class="ttl">Student Performance AI</text>
+<g transform="translate(506 28)"><rect width="40" height="24" rx="12" fill="#7cf3ff1f" stroke="#7cf3ff66"/><text x="20.0" y="16" class="lb" text-anchor="middle">ML</text></g>
+<rect x="34" y="88" width="56" height="3" rx="2" fill="#7cf3ff"/>
+<text x="34" y="128" class="d">Regression model that predicts exam</text>
+<text x="34" y="152" class="d">scores after in-depth EDA and</text>
+<text x="34" y="176" class="d">feature engineering.</text>
+<g transform="translate(34 200)"><rect width="112" height="28" rx="14" fill="#7cf3ff22" stroke="#7cf3ff88"/><text x="56" y="19" class="t" text-anchor="middle">Regression</text></g><g transform="translate(156.0 200)"><rect width="52" height="28" rx="14" fill="#7cf3ff22" stroke="#7cf3ff88"/><text x="26" y="19" class="t" text-anchor="middle">EDA</text></g><g transform="translate(217.8 200)"><rect width="86" height="28" rx="14" fill="#7cf3ff22" stroke="#7cf3ff88"/><text x="43" y="19" class="t" text-anchor="middle">Sklearn</text></g>
+<text x="540" y="220" class="arr" font-size="20" fill="#7cf3ff" text-anchor="end">→</text>
+</g>
+</svg>

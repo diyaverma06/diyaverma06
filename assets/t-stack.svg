@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90">
+<defs><linearGradient id="u" x1="0" x2="1"><stop offset="0" stop-color="#c77dff" stop-opacity="0"/><stop offset=".5" stop-color="#ff7ae6"/><stop offset="1" stop-color="#7cf3ff" stop-opacity="0"/></linearGradient></defs>
+<style>.h{font:800 34px 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif;fill:#fff} .s{font:600 14px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;fill:#c77dff;letter-spacing:3px}
+.ln{transform-origin:600px 0;animation:w 2.5s ease-in-out infinite alternate} @keyframes w{from{transform:scaleX(.3)}to{transform:scaleX(1)}}
+.dot{animation:mv 3s ease-in-out infinite alternate} @keyframes mv{from{transform:translateX(-200px)}to{transform:translateX(200px)}}</style>
+<text x="600" y="22" text-anchor="middle" class="s">// WHAT I BUILD WITH</text>
+<text x="600" y="62" text-anchor="middle" class="h">Tech Stack</text>
+<rect x="400" y="78" width="400" height="3" rx="2" fill="url(#u)" class="ln"/>
+<circle cx="600" cy="79.5" r="4" fill="#fff" class="dot"/>
+</svg>
